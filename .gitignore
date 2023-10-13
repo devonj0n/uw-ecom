@@ -1,0 +1,65 @@
+# Binaries, executables and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+/bin
+
+# Log files
+*.log
+
+# Go specific
+*.a
+*.o
+*.ko
+*.obj
+*.elf
+*.8
+*.6
+*.3
+*.out
+/_obj
+/_test
+/_workspace
+
+# Dependency directories (vendor is not usually ignored if you're using Go Modules)
+/vendor/
+
+# IDE/Editor folders
+.idea/
+.vscode/
+
+# User-specific files
+*.swo
+*.swp
+
+# macOS specific
+.DS_Store
+*.swp
+.profile
+.history
+
+# Docker
+*.env
+
+# Kubernetes
+*.yaml
+
+# Generated files by protobuf
+*.pb.go
+
+# Temporary files
+*~
+temp*
+.tmp*
+
+# Other
+*.pid
+*.pid.lock
+*.seed
+*.tar
+*.tar.gz
+*.zip
+*.gz
+*.db
+*.sqlite
